@@ -1,2 +1,4 @@
 AutoCafeLoader/spiders/manga_db.txt
 AutoCafeLoader/spiders/download/
+AutoCafeLoader/__pycache__
+AutoCafeLoader/spiders/__pycache__
