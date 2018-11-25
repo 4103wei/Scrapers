@@ -9,7 +9,7 @@ class CafeSpider(scrapy.Spider):
     def start_requests(self):
         # read file into a list
         db = []
-        with open("manga_db.txt","r") as file:
+        with open("db.txt","r") as file:
             for line in file:
                 db.append(''.join(e for e in line if e.isalnum() or e == ' '))
         print("# of Entries: " + str(len(db)))
