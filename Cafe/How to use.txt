@@ -1,5 +1,0 @@
-This script scraps m from ''
-
-1. Install Python with Scrappy
-2. "scrapy crawl cafe -s LOG_ENABLED=False"
-3. All m not listed in m_db.txt will be downloaded

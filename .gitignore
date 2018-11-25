@@ -1,4 +1,10 @@
-Cafe/AutoCafeLoader/spiders/manga_db.txt
-Cafe/AutoCafeLoader/spiders/download/
+Cafe/scrapy.cfg
 Cafe/AutoCafeLoader/__pycache__
+Cafe/AutoCafeLoader/__init__.py
+Cafe/AutoCafeLoader/items.py
+Cafe/AutoCafeLoader/middlewares.py
+Cafe/AutoCafeLoader/pipelines.py
+Cafe/AutoCafeLoader/settings.py
+Cafe/AutoCafeLoader/spiders/__init__.py
+Cafe/AutoCafeLoader/spiders/download/
 Cafe/AutoCafeLoader/spiders/__pycache__
