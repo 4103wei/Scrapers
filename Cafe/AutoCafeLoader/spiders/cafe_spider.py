@@ -46,7 +46,7 @@ class CafeSpider(scrapy.Spider):
                         # if title doesn't exist, write the title to the file holding all the titles
                         print("STATUS: The title, " + title +" , missing!")
 
-                        with open("manga_db.txt","a") as file:
+                        with open("_db.txt","a") as file:
                             file.write(''.join(e for e in title if e.isalnum() or e == ' ') + "\n")
 
 
